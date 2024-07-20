@@ -1,0 +1,55 @@
+
+header{
+    background-color: black;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-bottom: 80px;
+    box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.692);
+}
+h1, p, body{
+    margin: 0;
+}
+header p, h1{
+    color: white;
+}
+h1{
+    font-size: 8vw;
+}
+.septilha{
+    text-align: left;
+    width: 40vw;
+    margin-left: 4vw;
+    margin-bottom: 8vw;
+    font-size: 4vw
+}
+
+.parallax{
+    background-color: grey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 8vw;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.692);
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.parallax#img01{
+    background-image: url(pacote-d012/imagens/background001.jpg);
+}
+
+.parallax#img02{
+    background-image: url(pacote-d012/imagens/background002.jpg);
+}
+
+.parallax .septilha{
+    background-color: rgba(0, 0, 0, 0.664);
+    color: white;
+    margin-bottom: auto;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
